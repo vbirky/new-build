@@ -1,11 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+
 .container {
   height: 100vh;
   background-color: #e7e3eb;
   .header {
     padding: 15px 20px;
-    background-color: #6200ee;
+    background-color: #ffffff;
     h1 {
-      color: #fff;
+      color: #7d9174;
+      font-family: 'Zen Antique', serif;
+      text-align: center;
+      font-size: 72px;
     }
     p {
       color: wheat

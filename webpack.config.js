@@ -13,6 +13,12 @@ module.exports = {
         test: /\.(s(a|c)ss)$/,
         use: ["style-loader", "css-loader", "sass-loader"],
       },
+      {
+        test: /\.(woff|woff2|eot|ttf|svg)$/,
+        use: {
+          loader: 'url-loader',
+        },
+  },
     ],
   },
   resolve: {
